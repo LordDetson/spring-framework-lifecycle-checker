@@ -9,7 +9,7 @@ import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.ContextStartedEvent;
 import org.springframework.context.event.ContextStoppedEvent;
 
-public class SpringContextListener implements ApplicationListener {
+public class SpringContextListener implements ApplicationListener<ApplicationEvent> {
 
     private static final Logger log = LoggerFactory.getLogger(SpringContextListener.class);
 
