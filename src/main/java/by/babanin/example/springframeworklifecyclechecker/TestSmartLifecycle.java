@@ -11,17 +11,6 @@ public class TestSmartLifecycle implements SmartLifecycle {
     private boolean running;
 
     @Override
-    public boolean isAutoStartup() {
-        return true;
-    }
-
-    @Override
-    public void stop(Runnable runnable) {
-        this.stop();
-        runnable.run();
-    }
-
-    @Override
     public void start() {
         LogUtils.infoWithStacktrace(log, "SmartLifecycle#start method");
         running = true;
@@ -36,10 +25,5 @@ public class TestSmartLifecycle implements SmartLifecycle {
     @Override
     public boolean isRunning() {
         return running;
-    }
-
-    @Override
-    public int getPhase() {
-        return Integer.MAX_VALUE;
     }
 }
