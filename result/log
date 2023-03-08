@@ -1,0 +1,20 @@
+                        b.b.e.s.TestBean : Static initialization block
+    b.b.e.s.TestBeanFactoryPostProcessor : BeanFactoryPostProcessor constructor
+    b.b.e.s.TestBeanFactoryPostProcessor : initMethod registered method
+    b.b.e.s.TestBeanFactoryPostProcessor : BeanFactoryPostProcessor#postProcessBeanFactory method
+           b.b.e.s.TestBeanPostProcessor : BeanPostProcessor constructor
+           b.b.e.s.TestBeanPostProcessor : initMethod registered method
+                        b.b.e.s.TestBean : Non-static initialization block
+                        b.b.e.s.TestBean : Bean constructor
+                        b.b.e.s.TestBean : Setter-base Dependency Injection
+                        b.b.e.s.TestBean : The standard set of *Aware interfaces
+           b.b.e.s.TestBeanPostProcessor : BeanPostProcessor#postProcessBeforeInitialization() method - beanName = testBean
+                        b.b.e.s.TestBean : InitializingBean#afterPropertiesSet() method
+                        b.b.e.s.TestBean : initMethod registered method
+           b.b.e.s.TestBeanPostProcessor : BeanPostProcessor#postProcessAfterInitialization() method - beanName = testBean
+           b.b.e.s.SpringContextListener : context refreshed
+           b.b.e.s.SpringContextListener : context closed
+           b.b.e.s.TestBeanPostProcessor : destroyMethod registered method
+    b.b.e.s.TestBeanFactoryPostProcessor : destroyMethod registered method
+                        b.b.e.s.TestBean : TestBean#destroy() method
+                        b.b.e.s.TestBean : destroyMethod registered method
