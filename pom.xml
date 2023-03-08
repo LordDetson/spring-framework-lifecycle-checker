@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>by.babanin.example</groupId>
     <artifactId>spring-framework-lifecycle-checker</artifactId>
-    <version>5.3.25</version>
+    <version>6.0.6</version>
     <name>Spring Framework Lifecycle Checker</name>
     <description>The project shows the lifecycle of major versions of the Spring Framework</description>
     <url>https://github.com/LordDetson/spring-framework-lifecycle-checker</url>
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.3.25</version>
+            <version>6.0.6</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
