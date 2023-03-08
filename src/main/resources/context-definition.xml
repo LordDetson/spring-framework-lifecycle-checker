@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
-<beans default-init-method="init">
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-init-method="init">
 
     <bean id="testBeanFactoryPostProcessor"
           class="by.babanin.example.springframeworklifecyclechecker.TestBeanFactoryPostProcessor"
@@ -10,6 +13,8 @@
           destroy-method="cleanUp" />
     <bean id="springContextListener"
           class="by.babanin.example.springframeworklifecyclechecker.SpringContextListener" />
+    <bean id="testLifecycle"
+          class="by.babanin.example.springframeworklifecyclechecker.TestLifecycle"/>
     <bean id="beanToInject"
           class="by.babanin.example.springframeworklifecyclechecker.BeanToInject" />
     <bean id="testBean"

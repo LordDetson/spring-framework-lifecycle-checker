@@ -13,6 +13,12 @@
                         b.b.e.s.TestBean : initMethod registered method
            b.b.e.s.TestBeanPostProcessor : BeanPostProcessor#postProcessAfterInitialization() method - beanName = testBean
            b.b.e.s.SpringContextListener : context refreshed
+                   b.b.e.s.TestLifecycle : Lifecycle#isRunning method
+                   b.b.e.s.TestLifecycle : Lifecycle#start method
+           b.b.e.s.SpringContextListener : context started
+                   b.b.e.s.TestLifecycle : Lifecycle#isRunning method
+                   b.b.e.s.TestLifecycle : Lifecycle#stop method
+           b.b.e.s.SpringContextListener : context stopped
            b.b.e.s.SpringContextListener : context closed
                    b.b.e.s.TestLifecycle : Lifecycle#isRunning method
                         b.b.e.s.TestBean : TestBean#destroy() method
